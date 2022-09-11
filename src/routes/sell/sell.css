@@ -1,0 +1,227 @@
+.sell {
+  margin: 7em 3em;
+}
+.sell .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.sell .banner img {
+  width: 320px;
+  border-radius: 0 10px 10px 0;
+}
+.sell .banner .left h1 {
+  font-family: "montserrat";
+  padding-bottom: 8px;
+}
+.sell .banner .left p {
+  margin-bottom: 10px;
+}
+.sell .banner .left button {
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-family: "montserrat";
+  cursor: pointer;
+}
+.sell .banner .left button:hover {
+  background: rgb(36, 35, 35);
+  transition: 0.3s ease-in-out;
+}
+.sell .help .title {
+  font-size: 30px;
+  margin-left: 5em;
+  margin-top: 3em;
+}
+.sell .cards {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+.sell .cards .card {
+  text-align: center;
+  border: 2px solid white;
+  width: 300px;
+  height: 220px;
+  padding: 1em;
+  border-radius: 10px;
+  margin: 2em 0;
+  cursor: pointer;
+  background-color: rgb(22, 22, 22);
+}
+.sell .cards .card:hover {
+  box-shadow: 0px 0px 15px 5px rgb(245, 238, 238);
+  transition: 0.3s ease-out;
+}
+.help-nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0 1em;
+}
+.sell .how-it-works {
+  margin-left: 6em;
+  margin-top: 8em;
+}
+.sell .how-it-works .bottom {
+  display: flex;
+  align-items: center;
+}
+.sell .how-it-works .bottom img {
+  width: 25em;
+  margin-right: 10em;
+}
+.sell .how-it-works .title h1 {
+  font-size: 27px;
+}
+.sell .how-it-works .title p {
+  font-size: 17px;
+  margin-bottom: 3em;
+}
+.sell .how-it-works .row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 0;
+  color: gray;
+}
+.sell .how-it-works .row:hover {
+  color: white;
+  cursor: pointer;
+}
+.sell .how-it-works .row .line {
+  background-color: white;
+  width: 3px;
+  height: 60px;
+}
+.sell .how-it-works .row .content h1 {
+  font-family: "montserrat";
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+.sell .form {
+  margin: 0 5em;
+  margin-top: 7em;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.sell .form .left .img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sell .form .left .img label {
+  border: 2px solid white;
+  width: 170px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  gap: 7px;
+}
+.sell .form .left img {
+  width: 170px;
+  border: 1px solid white;
+}
+.sell .form .right {
+  display: flex;
+  gap: 10px;
+}
+.sell .form .right .left-inputs,
+.sell .form .right .right-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sell .form .right input {
+  padding: 10px;
+  width: 300px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  outline: none;
+}
+.sell .form .right button {
+  padding: 10px;
+  border-radius: 20px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  margin: 13px;
+}
+.sell .form .right button:hover {
+  background-color: rgb(32, 32, 32);
+}
+@media (max-width: 1110px) {
+  .sell .cards {
+    flex-wrap: wrap;
+  }
+  .sell .form {
+    margin: 5em 0;
+  }
+}
+@media (max-width: 1040px) {
+  .sell .how-it-works .bottom img {
+    width: 200px;
+  }
+}
+@media (max-width: 945px) {
+  .banner {
+    flex-direction: column;
+  }
+  .sell .form {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 770px) {
+  .sell .how-it-works .bottom {
+    flex-direction: column;
+  }
+  .sell .how-it-works {
+    margin-left: 1em;
+  }
+  .sell .how-it-works .bottom img {
+    margin-right: 0;
+  }
+  .sell .form .right {
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .sell .banner h1 {
+    font-size: 23px;
+  }
+  .sell .banner {
+    padding: 0 2em;
+    margin-top: 4em;
+  }
+  .sell .cards .card {
+    margin: 0;
+  }
+  .sell .help .title {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+@media (max-width: 360px) {
+  .sell .banner img {
+    width: 270px;
+  }
+}
+@media (max-width: 425px) {
+  .sell {
+    margin: 5em 5px;
+  }
+  .sell .cards .card {
+    width: 240px;
+  }
+}

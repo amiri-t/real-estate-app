@@ -1,0 +1,6 @@
+navbar is gonna contain:
+home, but, sell, rent, advertise
+
+home sayings: 
+find it. Tour It. Own it.
+Discover most suitable property

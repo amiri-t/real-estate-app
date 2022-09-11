@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  border-top: 2px solid white;
+}
+.footer .column {
+  padding: 30px;
+}
+.footer .col1 p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.footer .icon {
+  font-size: 20px;
+}
+.footer .column h3 {
+  font-family: "Montserrat";
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+.footer .column p {
+  padding: 10px 0;
+  color: rgba(255, 255, 255, 0.678);
+  cursor: pointer;
+}
+.footer .column p:hover {
+  color: white;
+}
+@media (max-width: 740px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+}

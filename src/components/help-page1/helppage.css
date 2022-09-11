@@ -1,0 +1,50 @@
+.help1 {
+  margin: 7em 0;
+  padding: 0 7em;
+  display: flex;
+}
+.help1 .paragraph p {
+  padding: 2em 0;
+  color: rgba(255, 255, 255, 0.671);
+}
+.help1 .paragraph {
+  flex: 3;
+  padding-right: 8em;
+}
+.help1 .other-guides {
+  flex: 1.3;
+  margin-right: 3em;
+}
+.help1 .other-guides h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.help1 .other-guides p {
+  text-decoration: underline;
+  font-weight: 200;
+  color: gray;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.help1 .other-guides p:hover {
+  color: white;
+}
+.help1 li {
+  padding: 10px 0;
+  margin-left: 2em;
+  color: rgba(255, 255, 255, 0.644);
+}
+@media (max-width: 900px) {
+  .help1 .other-guides {
+    display: none;
+  }
+  .help1 .paragraph {
+    flex: 100%;
+    padding-right: 0;
+  }
+}
+@media (max-width: 500px) {
+  .help1 {
+    padding: 0em 1em;
+  }
+}

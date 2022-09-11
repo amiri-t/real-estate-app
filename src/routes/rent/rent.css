@@ -1,0 +1,135 @@
+.rent {
+  margin-top: 6em;
+  padding: 0 5em;
+}
+.rent .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.rent .banner img {
+  width: 250px;
+  border-radius: 0 10px 10px 0;
+}
+.rent .banner .left h1 {
+  font-family: "montserrat";
+  padding-bottom: 8px;
+}
+.rent .banner .left p {
+  margin-bottom: 10px;
+}
+.rent .tips {
+  margin: 5em 0;
+}
+.rent .tips-container {
+  display: flex;
+  align-items: center;
+}
+.rent .tips .title {
+  margin-bottom: 4em;
+}
+.rent .tips .title h1 {
+  font-family: "montserrat";
+  font-weight: 400;
+  font-size: 27px;
+  padding-bottom: 10px;
+}
+.rent .tips .row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 0;
+  color: gray;
+}
+.rent .tips .row:hover {
+  color: white;
+  cursor: pointer;
+}
+.rent .tips .row .line {
+  background-color: white;
+  width: 3px;
+  height: 60px;
+}
+.rent .tips .row .content h1 {
+  font-family: "montserrat";
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+.rent .tips img {
+  width: 270px;
+  margin-left: 5em;
+}
+.rent .offers {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3em 0;
+  gap: 1.3em;
+}
+.rent .offers .card {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(24, 23, 23);
+}
+.rent .offers .card:hover {
+  box-shadow: 0px 0px 15px 5px rgb(245, 238, 238);
+  transition: 0.3s;
+}
+.rent .card img {
+  width: 240px;
+  filter: brightness(0.7);
+}
+.rent .card img:hover {
+  filter: brightness(1);
+}
+.rent .card h1 {
+  font-size: 20px;
+}
+.sold {
+  text-decoration: line-through;
+}
+.sold-card {
+  border: 2px solid red;
+}
+@media (max-width: 1040px) {
+  .rent .tips img {
+    width: 200px;
+    margin-left: 1em;
+  }
+}
+@media (max-width: 900px) {
+  .rent .tips-container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 945px) {
+  .banner {
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .rent .banner h1 {
+    font-size: 23px;
+  }
+  .rent .banner {
+    margin-top: 2em;
+  }
+}
+@media (max-width: 360px) {
+  .rent .banner img {
+    width: 220px;
+  }
+  .rent {
+    padding: 1em;
+  }
+}
+@media (max-width: 500px) {
+  .rent {
+    padding: 0 2em;
+  }
+}

@@ -1,0 +1,90 @@
+.buy .banner {
+  display: flex;
+  justify-content: center;
+  margin: 0 3em;
+  align-items: center;
+  margin-top: 80px;
+  color: white;
+}
+.buy .banner .left h1 {
+  font-family: "montserrat";
+  padding-bottom: 5px;
+}
+.buy .banner img {
+  width: 80%;
+}
+.buy .banner button {
+  padding: 7px 10px;
+  border: 2px solid white;
+  background: none;
+  border-radius: 20px;
+  color: white;
+  font-family: "Nunito";
+  margin-top: 10px;
+}
+.buy .banner button:hover {
+  cursor: pointer;
+  background-color: rgb(34, 33, 33);
+  transition: 0.3s;
+}
+.buy .offers {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3em 0;
+  padding: 0 4em;
+  gap: 1.3em;
+}
+.buy .offers .card {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(24, 23, 23);
+}
+.buy .offers .card:hover {
+  box-shadow: 0px 0px 15px 5px rgb(245, 238, 238);
+  transition: 0.3s;
+}
+.buy .card img {
+  width: 240px;
+  filter: brightness(0.7);
+}
+.buy .card img:hover {
+  filter: brightness(1);
+}
+.buy .card h1 {
+  font-size: 20px;
+}
+.sold {
+  text-decoration: line-through;
+}
+.sold-card {
+  border: 2px solid red;
+}
+@media (max-width: 960px) {
+  .buy .offers {
+    padding: 0 2em;
+  }
+  .buy .banner h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 840px) {
+  .buy .banner button {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .buy .banner {
+    margin: 0;
+    margin-top: 5em;
+    padding-left: 30px;
+  }
+}
+@media (max-width: 540px) {
+  .buy .banner {
+    flex-direction: column;
+  }
+}
